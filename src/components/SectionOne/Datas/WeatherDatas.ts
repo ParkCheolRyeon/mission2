@@ -2,28 +2,28 @@ import { WeatherTypes } from "@/types/sectionOne/types";
 
 export const weatherDatas: WeatherTypes[] = [
   {
-    src: "/Icons/rain.png",
+    src: "/Icons/myrain.png",
     alt: "rain",
-    name: "rain.png",
+    name: "myrain.png",
   },
   {
-    src: "/Icons/sun.png",
+    src: "/Icons/mysun.png",
     alt: "sun",
-    name: "sun.png",
+    name: "mysun.png",
   },
   {
-    src: "/Icons/snow.png",
+    src: "/Icons/mysnow.png",
     alt: "snow",
-    name: "snow.png",
+    name: "mysnow.png",
   },
   {
-    src: "/Icons/wind.png",
+    src: "/Icons/mywind.png",
     alt: "wind",
-    name: "wind.png",
+    name: "mywind.png",
   },
   {
-    src: "/Icons/bolt.png",
+    src: "/Icons/mybolt.png",
     alt: "bolt",
-    name: "bolt.png",
+    name: "mybolt.png",
   },
 ];
