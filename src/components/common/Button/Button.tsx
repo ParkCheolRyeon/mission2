@@ -27,6 +27,7 @@ const MyButton = (
       }}
     >
       {children}
+      <div ref={ref} style={{ display: "none" }}></div>
     </button>
   );
 };

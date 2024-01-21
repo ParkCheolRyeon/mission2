@@ -40,6 +40,13 @@ export default function SectionThree() {
           <SectionThreeItems inputValue={inputValue} />
         </>
       )}
+      <div
+        style={{
+          display: "none",
+        }}
+      >
+        {showAlert}
+      </div>
     </SectionBg>
   );
 }

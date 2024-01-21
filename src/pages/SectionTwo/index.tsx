@@ -41,6 +41,13 @@ export default function SectionTwo() {
       ) : (
         <TitleText imgList={imgList} open={open} />
       )}
+      <div
+        style={{
+          display: "none",
+        }}
+      >
+        {showAlert}
+      </div>
     </SectionBg>
   );
 }
