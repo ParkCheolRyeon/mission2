@@ -1,4 +1,3 @@
-import SectionBg from "../components/common/SectionBg";
 import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";

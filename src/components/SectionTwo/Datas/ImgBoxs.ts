@@ -1,6 +1,8 @@
-import { ImageBoxsType } from "@/types/sectionThree/types";
+interface ITypes {
+  color: string;
+}
 
-export const ImageBoxs: ImageBoxsType[] = [
+export const ImageBoxs: ITypes[] = [
   {
     color: "bg-amber-400",
   },

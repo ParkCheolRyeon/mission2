@@ -1,7 +1,7 @@
 import { sectionThreeItemDatasType } from "@/types/sectionThree/types";
+import { useState } from "react";
 import InviteBtn from "./InviteBtn";
 import UserAvatar from "./UserAvatar";
-import { useState } from "react";
 
 interface IProps {
   sectionThreeItem: sectionThreeItemDatasType;

@@ -1,3 +1,6 @@
+import { InputDatasTypes, ItemsTypes } from "@/types/sectionOne/types";
+import { useState } from "react";
+import MyButton from "../../../common/Button/Button";
 import { Button } from "../../../ui/button";
 import {
   Dialog,
@@ -8,14 +11,11 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../../../ui/dialog";
-import { InputDatasTypes, ItemsTypes } from "@/types/sectionOne/types";
-import React, { SetStateAction, useState } from "react";
-import MyButton from "../../../common/Button/Button";
 import MyInput from "./Input";
 import MySelect from "./Select";
 
-import { AlertTitle } from "../../../ui/alert";
 import { AlertCircle, Plus } from "lucide-react";
+import { AlertTitle } from "../../../ui/alert";
 import { inputDatas } from "../../Datas/InputDatas";
 
 interface IProps {

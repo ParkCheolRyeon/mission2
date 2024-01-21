@@ -1,9 +1,9 @@
-import SectionBg from "@/components/common/SectionBg";
-import React, { useState } from "react";
-import Mybutton from "../../components/common/Button/Button";
-import { ChevronDown, ChevronLeft, ChevronUp, X } from "lucide-react";
 import SearchInput from "@/components/SectionThree/SearchInput";
 import SectionThreeItems from "@/components/SectionThree/SectionThreeItems";
+import SectionBg from "@/components/common/SectionBg";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+import Mybutton from "../../components/common/Button/Button";
 
 export default function SectionThree() {
   const [open, setOpen] = useState(true);

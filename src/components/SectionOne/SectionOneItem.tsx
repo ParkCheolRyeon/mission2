@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import { ItemsTypes } from "../../types/sectionOne/types";
 
 export default function SectionOneItem({

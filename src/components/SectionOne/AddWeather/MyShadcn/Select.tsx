@@ -1,3 +1,4 @@
+import { ItemsTypes, WeatherTypes } from "@/types/sectionOne/types";
 import React from "react";
 import { Label } from "../../../ui/label";
 import {
@@ -7,7 +8,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../../../ui/select";
-import { ItemsTypes, WeatherTypes } from "@/types/sectionOne/types";
 import { weatherDatas } from "../../Datas/WeatherDatas";
 
 interface IProps {
