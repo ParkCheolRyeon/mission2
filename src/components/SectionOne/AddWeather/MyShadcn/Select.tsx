@@ -45,7 +45,7 @@ export default function MySelect({ setInputValue }: IProps) {
                       src={weatherData.src}
                       alt={weatherData.alt}
                     />
-                    {weatherData.name}
+                    {weatherData.alt}
                   </div>
                 </SelectItem>
               );
