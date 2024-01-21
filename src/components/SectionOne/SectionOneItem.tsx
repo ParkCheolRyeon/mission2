@@ -19,7 +19,7 @@ export default function SectionOneItem({
         <div className="flex items-center gap-2 ">
           <img
             className="w-6 h-6 "
-            src={`/public/sectionOneIcons/${weatherimg}.png`}
+            src={`/sectionOneIcons/${weatherimg}.png`}
             alt={weatherimg}
           />
           <div className="text-2xl font-extrabold ">{temperature}°C</div>
